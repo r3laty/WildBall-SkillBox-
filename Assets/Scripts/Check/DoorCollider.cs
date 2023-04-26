@@ -8,6 +8,7 @@ public class DoorCollider : MonoBehaviour
     [SerializeField] private Text _manual2;
     [SerializeField] private Text _manualWithoutPoints;
     [SerializeField] private GameObject _door;
+    [SerializeField] private Animator _animeDoor;
 
     private CharacterController characterController;
     private bool isClaimed;
@@ -19,9 +20,9 @@ public class DoorCollider : MonoBehaviour
 
     private void Update() 
     {
-        if(isClaimed)
+        if(isClaimed && Input.GetKeyDown(KeyCode.E))
         {
-            Destroy(_door);
+            _animeDoor.SetBool("isClaimed", true);
         }    
     }
 
