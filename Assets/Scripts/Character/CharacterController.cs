@@ -11,9 +11,6 @@ public class CharacterController : MonoBehaviour
    private Vector3 movement;
    private Rigidbody playerRb;
    private CharacterMovement characterMovement;
-
-
-
    private void Awake() 
    { 
       playerRb = GetComponent<Rigidbody>();

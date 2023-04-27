@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CollisionCheck : MonoBehaviour
+public class RaisingAGem : MonoBehaviour
 {
     [SerializeField] private Animator _purpleGem;
     [SerializeField] private Animator _redGem;

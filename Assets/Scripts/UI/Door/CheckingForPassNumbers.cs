@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DoorCollider : MonoBehaviour
+public class CheckingForPassNumbers : MonoBehaviour
 {
     [SerializeField] private Text _manual;
     [SerializeField] private Text _manual1;
