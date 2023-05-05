@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
+  _jumpForce: 5
   points: 0
 --- !u!114 &1671699686791200920
 MonoBehaviour:
@@ -207,6 +208,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentPointText: {fileID: 0}
+  _pattern: "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043E\u0447\u043A\u043E\u0432: "
+  characterController: {fileID: 1671699686791200899}
 --- !u!114 &1671699686791200916
 MonoBehaviour:
   m_ObjectHideFlags: 0

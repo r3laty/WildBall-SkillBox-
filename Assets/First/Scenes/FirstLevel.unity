@@ -6648,17 +6648,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1671699686791200921, guid: e2ed07ce488eda044809782dd5a096f3, type: 3}
   m_PrefabInstance: {fileID: 1671699688525028525}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1811422266 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1671699686791200899, guid: e2ed07ce488eda044809782dd5a096f3, type: 3}
-  m_PrefabInstance: {fileID: 1671699688525028525}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d883eb9be7f7a58498407ac01a457335, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!850595691 &1883740478
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -7672,10 +7661,6 @@ PrefabInstance:
       propertyPath: _currentPointText
       value: 
       objectReference: {fileID: 1184341656}
-    - target: {fileID: 1671699686791200917, guid: e2ed07ce488eda044809782dd5a096f3, type: 3}
-      propertyPath: characterController
-      value: 
-      objectReference: {fileID: 1811422266}
     - target: {fileID: 1671699686791200920, guid: e2ed07ce488eda044809782dd5a096f3, type: 3}
       propertyPath: _redGem
       value: 

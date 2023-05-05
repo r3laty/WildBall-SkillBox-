@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,7 +12,6 @@ public class CurrentGemsCounter : MonoBehaviour
         {
             case 1:
                 _currentPointText.text = _pattern + characterController.points.ToString();
-                Debug.Log(characterController.points);
             break;
             case 2:
                 _currentPointText.text = "Количество очков: 2";
